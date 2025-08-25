@@ -104,8 +104,11 @@ Inicia el servidor y regístrate en la aplicación. La IP que se guardará será
 Segundo Login (Verificación de IP):
 
 Detén el servidor (Ctrl + C).
-
-Cambia de red: Desconecta tu PC del Wi-Fi y conéctala a la red de datos móviles de tu teléfono (hotspot).
+cambia la funcion listen que esta al final de fichero server.js a el siguiente
+app.listen(PORT,0.0.0.0,() => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+});
+esto para simular un cambio de ip
 
 Inicia el servidor nuevamente (node server.js).
 
