@@ -1,5 +1,7 @@
-#Sistema de Autenticación de Usuario por IP
-##Descripción del Proyecto
+# Sistema de Autenticación de Usuario por IP
+
+## Descripción del Proyecto
+
 Este proyecto es un sistema de autenticación de usuario que utiliza una capa de seguridad adicional. Además del login tradicional con correo y contraseña, la aplicación detecta si un usuario intenta iniciar sesión desde una dirección IP diferente a la registrada. Si se detecta un cambio de IP, el sistema envía un correo electrónico de verificación al usuario. Este enfoque mejora la seguridad al notificar sobre inicios de sesión sospechosos.
 
 Características
